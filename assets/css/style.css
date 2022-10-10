@@ -1,0 +1,60 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+    Geneva, Verdana, sans-serif;
+    background-color: rgba(134, 156, 156, 0.288);
+    }
+
+.header{
+    height: 10em;
+    padding: 5em;
+    font-size: 2em;
+    background-image: url("../images/1.jpg");
+    background-size: cover;
+    background-position: center;
+    }
+
+h1{
+    margin: 0px;
+    font-weight: 400;
+    text-align:center;
+    font-style: italic;
+    border: #ccc 1px solid;
+    box-shadow: 0 0 0 8px #eee, 0 0 0 9px #ccc;
+    border-style: double;
+    box-shadow: 12px 12px 2px 1px #89898c33;
+    background-color: rgba(204, 204, 204, 0.337);
+    }
+
+.subtitulo{
+    text-align:center;
+    border: #ccc 1px solid;
+    box-shadow: 0 0 0 8px #eee, 0 0 0 9px rgb(156, 154, 154);
+    border-style: double;
+    box-shadow: 12px 12px 2px 1px rgba(154, 154, 156, 0.2);
+    background-color: rgba(204, 204, 204, 0.337);
+    }
+
+.products {
+    width: 80%;
+    margin: auto;
+    }
+
+.products td{
+    width: 50%;
+    padding: 2em;
+    }
+
+.products img{
+    width: 100%;
+    border: solid 1px #ddd;
+    }
+
+.footer{
+    height: 3em;
+    line-height: 3em;
+    background-color: rgb(233, 166, 99);
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    }
+        
